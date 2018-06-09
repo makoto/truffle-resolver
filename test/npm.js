@@ -1,6 +1,6 @@
 const assert = require('assert');
-const NPM = require('../npm')
-const npm = new NPM()
+const NPM = require('../npm');
+const npm = new NPM();
 describe('npm', function() {
   describe('#require()', function() {
     it('reads package name', function() {
